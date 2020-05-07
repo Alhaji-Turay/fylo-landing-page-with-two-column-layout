@@ -1,0 +1,180 @@
+:root {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+.header-container {
+    padding: 0 68px;
+    padding-top: 58px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 2.6;
+}
+
+.logo-brand {
+    margin-right: auto;
+    width: 140px;
+}
+
+.links a {
+    text-decoration: none;
+    margin-right: 45px;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+}
+
+
+.main-title {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+
+.header-content {
+    display: flex;
+    padding-top: 170px;
+}
+
+.column {
+    flex: 50%;
+    padding: 20px;
+}
+
+
+.column .header-image {
+    width: 450px;
+    position: absolute;
+    top: 230px;
+    right: 190px;
+}
+
+.about-fylo {
+    width: 500px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+}
+
+
+.section-title {
+    font-family: 'Raleway', sans-serif;
+}
+
+.section-info {
+    display: flex;
+    background-color: #f9f8fe;
+    padding: 185px 75px;
+}
+
+.section-info p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-column a {
+    color: #90c2b9;
+}
+
+
+.section-column {
+    flex: 50%;
+    padding: 20px;
+}
+
+
+.section-column img {
+    width: 475px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+
+.cta-section {
+    display: flex;
+    padding: 107px 70px;
+    background-color: #575989;
+}
+
+
+.cta-column {
+    flex: 50%;
+}
+
+
+.cta-section h2 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.cta-section p {
+    width: 500px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+
+.cta-column input {
+    background-color: white;
+    padding: 15px 0;
+    width: 475px;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #3165f7;
+    padding: 17px 30px;
+    border: none;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.footer-content {
+    display: flex;
+    background-color: #07043b;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    padding-left: 66px;
+    padding-right: 66px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+.footer-column {
+    flex: 25%;
+}
+
+.footer-logo-brand {
+    width: 140px;
+}
+
+.social-icons {
+    display: inline-block;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer-logo-brand svg {
+    fill: #fff;
+}
+
+
+.social-icons i {
+    font-size: 1.3em;
+    margin-right: 15px;
+}
